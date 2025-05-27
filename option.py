@@ -1,6 +1,6 @@
 import argparse, torch
 
-parser = argparse.ArgumentParser(description='Well-posed Invertible Network for Reversible Image Conversion')
+parser = argparse.ArgumentParser(description='WIN for Reversible Image Conversion')
 
 # Hardware specifications
 parser.add_argument('--cuda', default=True, action='store_true', help='Use cuda?')
